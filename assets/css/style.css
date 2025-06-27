@@ -1,0 +1,113 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body and background styling */
+body {
+    background: linear-gradient(135deg, #6e7f84, #c2d6d1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Container for centering content */
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login box styling */
+.login-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Heading styling */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input container styling */
+.input-container {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Input fields styling */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 6px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+/* Focused input field border color */
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #3498db;
+}
+
+/* Button styling */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.login-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Error message styling */
+.error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+/* Create account link styling */
+.create-link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.create-link:hover {
+    text-decoration: underline;
+}
+
+/* Animation for login box */
+.login-box:hover {
+    transform: scale(1.05);
+}
+
+
+
+/*----------------------------->END OF THE CSS--------------------------------->*/
+
